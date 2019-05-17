@@ -1,0 +1,13 @@
+<script src="/assets/js/jquery-2.1.2.min.js"></script>
+<script src="/assets/js/materialize.min.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var options = 0;
+        var elems = document.querySelectorAll('.sidenav');
+        var instances = M.Sidenav.init(elems, options);
+    });
+    $(document).ready(function() {
+        $('.sidenav').sidenav();
+        $(".dropdown-trigger").dropdown();
+    });
+</script>
