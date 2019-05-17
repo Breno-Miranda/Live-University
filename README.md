@@ -36,6 +36,10 @@ Install the dependencies and devDependencies and start the server.
 $ cd LiveUniversity
 $ npm install -d
 $ node server.js
+
+
+http://localhost:4400/
+
 ```
 
 ### Development
